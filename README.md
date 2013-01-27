@@ -1,15 +1,40 @@
-JavaScript Kata Template Project
-================================
+FizzBuzz Kata - JavaScript
+==========================
 
-The goal of this project is to get you writing code as quickly as possible.
+This is an implementation of the classic [FizzBuzz](http://codingdojo.org/cgi-bin/wiki.pl?KataFizzBuzz)
+beginner kata.
 
-This is a pretty simple setup to do test first development with JavaScript using the Jasmine test framework and
-the Testacular test runner.
+Goal
+----
 
-Sugar.js is included for convenience.
+Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the
+number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five
+print "FizzBuzz?".
 
-This project is designed to be used with IntelliJ IDEA, though there's no reason that it shouldn't work with other
-editors as well.
+Sample output:
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+... etc up to 100
+```
 
 ### Before starting
  1. Install [Node.js](http://nodejs.org/)
