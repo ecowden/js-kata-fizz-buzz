@@ -2,7 +2,7 @@
     "use strict";
 
     // Create an Angular module. Change the module's name as appropriate.
-    var module = angular.module('kata.fizzBuzz', []);
+    var module = angular.module('fizzBuzz.fizzBuzz', []);
 
     // Create a service.  We can get this from our test using injection.
     module.factory("fizzBuzz", function () {
@@ -19,7 +19,7 @@
                 return 'Buzz';
             }
 
-            return n;
+            return n.toString();
         };
     });
 

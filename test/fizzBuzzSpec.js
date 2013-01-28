@@ -3,14 +3,14 @@
 
     describe("fizzBuzz", function () {
 
-        beforeEach(module('kata.fizzBuzz'));
+        beforeEach(module('fizzBuzz.fizzBuzz'));
 
         it("should return 1 when given 1", inject(function (fizzBuzz) {
-            expect(fizzBuzz(1)).toBe(1);
+            expect(fizzBuzz(1)).toBe('1');
         }));
 
         it("should return 2 when given 2", inject(function (fizzBuzz) {
-            expect(fizzBuzz(2)).toBe(2);
+            expect(fizzBuzz(2)).toBe('2');
         }));
 
         it("should return 'Fizz' when given 3", inject(function (fizzBuzz) {
